@@ -29,7 +29,10 @@
     </header>
 
     <main class="main">
-        <section class="products">
+        <section class="main__header">
+            <h1>Productos</h1>
+        </section>
+        <section class="products__main products">
             <article class="products-item">
                 <img src="./assets/products/PANEL.jpeg" alt="Inversor Solar">
                 <p>Inversor Solar 123</p><span><b>$199</b></span>
@@ -46,6 +49,58 @@
                 <img src="./assets/products/PANEL.jpeg" alt="Inversor Solar">
                 <p>Inversor Solar 123</p><span><b>$199</b></span>
             </article>
+        </section>
+
+        <section class="main__pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="main__cta cta">
+            <h2>¿Tienes preguntas?</h2>
+            <p>Contáctanos para obtener más información sobre nuestros productos y servicios.</p>
+            <a href="contact.html" class="cta__button">Contáctanos</a>
+
+        </section>
+
+        <section class="main__testimonials testimonials">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonials__list">
+                <div class="testimonial-item">
+                    <p>"Excelente servicio y productos de alta calidad. ¡Recomiendo esta tienda!"</p>
+                    <span>- Juan Pérez</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"La atención al cliente fue excepcional. Me ayudaron a elegir el producto perfecto."</p>
+                    <span>- María Gómez</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Entrega rápida y productos que superaron mis expectativas. ¡Muy satisfecho!"</p>
+                    <span>- Carlos Rodríguez</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main__newsletter newsletter">
+            <h2>Suscríbete a nuestro boletín</h2>
+            <p>Recibe las últimas noticias y ofertas directamente en tu correo electrónico.</p>
+            <form class="newsletter__form">
+                <input type="email" class="newsletter__input" placeholder="Ingresa tu correo electrónico" required>
+                <button type="submit" class="newsletter__button">Suscribirse</button>
+            </form>
+
         </section>
     </main>
 
